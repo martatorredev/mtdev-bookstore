@@ -3,110 +3,97 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Marta Torre – Web Developer for Bookshops</title>
+  <title>Marta Torre – Web development for bookstores</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet" />
 </head>
 <body>
-
-  <header class="centered-header">
-    <nav class="nav-left">
-      <ul class="nav-links">
+  <header class="site-header">
+    <nav class="main-nav">
+      <ul>
         <li><a href="#services">Services</a></li>
-        <li><a href="#about">How I Work</a></li>
+        <li><a href="#about">About</a></li>
       </ul>
-    </nav>
-
-    <div class="logo">
-      <a href="/">
-        <img src="https://martatorre.dev/wp-content/uploads/2023/07/logo-main.svg" alt="Marta Torre logo" />
-      </a>
-    </div>
-
-    <nav class="nav-right">
-      <ul class="nav-links">
-        <li><a href="#testimonials">Testimonials</a></li>
+      <div class="logo">
+        <img src="logo.svg" alt="Marta Torre logo" width="94" height="94" />
+      </div>
+      <ul>
+        <li><a href="#work">Work</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <section id="hero">
-    <h1>Web developer for bookshops</h1>
-    <p>I build fast, accessible websites that help bookshops connect with their readers.</p>
-    <a href="#contact" class="btn-primary">Request a quote</a>
+  <section class="hero">
+    <div class="hero-content">
+      <h1>I build fast, functional websites for indie bookstores</h1>
+      <p>Custom WordPress development focused on performance and accessibility.</p>
+      <a class="cta-button" href="#contact">Get in touch</a>
+    </div>
   </section>
 
   <section id="services" class="section">
-    <h2>My Services</h2>
+    <h2>What I do</h2>
     <div class="services-grid">
-      <div class="service-card">
-        <h3>Fast & Functional Websites</h3>
-        <p>Custom WordPress development focused on performance and user experience.</p>
+      <div class="service">
+        <h3>Fast, functional websites</h3>
+        <p>Custom WordPress development focused on performance, UX and accessibility.</p>
       </div>
-      <div class="service-card">
-        <h3>Mobile Optimization</h3>
-        <p>Fully responsive websites that look great on any device.</p>
+      <div class="service">
+        <h3>Mobile optimization</h3>
+        <p>I make sure your site works perfectly on every screen.</p>
       </div>
-      <div class="service-card">
-        <h3>Training Included</h3>
-        <p>I’ll show you how to manage your content so you don’t depend on developers.</p>
+      <div class="service">
+        <h3>Privacy-first mindset</h3>
+        <p>No cookie banners or shady scripts – just clean, ethical tech.</p>
+      </div>
+      <div class="service">
+        <h3>Training included</h3>
+        <p>You’ll learn to manage your site with confidence, no tech background needed.</p>
       </div>
     </div>
   </section>
 
-  <section id="about" class="section">
-    <h2>How I work</h2>
-    <div class="about-content">
-      <p>I develop custom WordPress websites focused on performance, accessibility and long-term sustainability. I work side by side with bookshops to create fast, easy-to-manage websites that reflect their unique personality and values.</p>
-      <ul>
-        <li>⚡ Fast & lightweight websites (no bloated themes)</li>
-        <li>📱 Fully responsive and mobile-first</li>
-        <li>🧠 I include training so you can manage your content easily</li>
-        <li>🌱 Accessibility, SEO & sustainability in mind</li>
-        <li>🤝 I work with bookshops, not just for them</li>
-      </ul>
+  <section id="work" class="section">
+    <h2>Latest project</h2>
+    <div class="project-card">
+      <h3>Librería Moderna</h3>
+      <p>A clean, mobile-friendly bookstore website built with WordPress and Gutenberg.</p>
     </div>
   </section>
 
-  <section id="testimonials" class="section">
-    <h2>What my clients say</h2>
-    <div class="testimonials-grid">
-      <blockquote>
-        <p>“Working with Marta was a game-changer. The website is fast, accessible and reflects our values perfectly.”</p>
-        <cite>— Clara, independent bookseller</cite>
-      </blockquote>
-
-      <blockquote>
-        <p>“Thanks to Marta’s training, I can update my content without relying on anyone. Total peace of mind.”</p>
-        <cite>— Lucia, children’s bookshop owner</cite>
-      </blockquote>
-    </div>
+  <section id="contact" class="section">
+    <h2>Let’s work together</h2>
+    <p>If you're running a bookstore and want a solid, accessible site, I'd love to help.</p>
+    <ul class="contact-links">
+      <li>
+        <a href="mailto:hey@martatorre.dev">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-mail" aria-hidden="true">
+            <path d="M4 4l8 6 8-6" />
+            <rect x="2" y="4" width="20" height="16" rx="2" ry="2" />
+          </svg>
+          hey [at] martatorre.dev
+        </a>
+      </li>
+      <li>
+        <a href="https://wptoots.social/@martatorredev@masto.es" target="_blank" rel="noopener">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 216 232" width="20" height="20" fill="currentColor" aria-hidden="true">
+            <path d="M..." /> <!-- Mastodon SVG path aquí -->
+          </svg>
+          Mastodon
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/martatorredev/" target="_blank" rel="noopener">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M..." /> <!-- LinkedIn SVG path aquí -->
+          </svg>
+          LinkedIn
+        </a>
+      </li>
+    </ul>
   </section>
-
- <section id="contact" class="section">
-  <h2>Let's talk</h2>
-  <p class="contact-intro">
-    If you’re working on a project or wondering if I can help, I’d love to hear from you.
-  </p>
-  <p class="contact-options">
-    Just drop me a line at <strong>hey</strong> <span>@</span> <strong>martatorre.dev</strong>
-  </p>
-  <ul class="contact-links">
-    <li><a href="https://wptoots.social/@martatorredev@masto.es" rel="me" target="_blank">Mastodon</a></li>
-    <li><a href="https://www.linkedin.com/in/martatorredev/" target="_blank">LinkedIn</a></li>
-  </ul>
-  <p class="contact-note">No forms, no popups, no BS. Just reach out when you’re ready. ❤️</p>
-</section>
-
-
 
   <footer class="site-footer">
-    <div class="footer-content">
-      <p>&copy; 2025 Marta Torre – Web Developer for Bookshops</p>
-      <p class="license">Site licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a></p>
-    </div>
+    <p>&copy; 2025 Marta Torre – Web development for bookstores</p>
   </footer>
-
 </body>
-</html>
