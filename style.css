@@ -32,23 +32,22 @@ header {
 }
 
 .logo img {
-  height: 3rem; /* antes 2.5rem */
+  height: 5.875rem;
   display: block;
 }
+
 
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 2rem;
+  gap: 3rem; /* antes 1.5rem */
 }
 
 .nav-links a {
-  color: var(--color-text);
-  text-decoration: none;
+  font-size: 1.25rem;
   font-weight: 600;
-  font-size: 1.25rem; /* antes 1.125rem */
-  transition: color 0.3s ease;
 }
+
 
 .nav-links a:hover {
   color: var(--color-accent-light);
@@ -62,15 +61,18 @@ header {
 
 #hero h1 {
   font-family: var(--font-title);
-  font-size: 3.5rem; /* antes 3rem */
+  font-size: 3rem;
+  line-height: 1.2;
   margin-bottom: 1.5rem;
 }
 
+
 #hero p {
-  max-width: 44rem;
+  font-size: 1.375rem;
+  max-width: 46rem;
   margin: 0 auto 2.5rem;
-  font-size: 1.5rem; /* antes 1.25rem */
 }
+
 
 .btn-primary {
   background-color: var(--color-accent);
