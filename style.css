@@ -244,3 +244,37 @@ blockquote cite {
   margin: 0 auto;
   padding: 0 2rem;
 }
+.contact-form {
+  max-width: 48rem;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 2rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--color-text);
+  font-size: 1.125rem;
+  font-family: var(--font-body);
+}
+
+input:focus,
+textarea:focus {
+  outline: 2px solid var(--color-accent);
+}
+
