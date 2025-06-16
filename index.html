@@ -2,98 +2,105 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Marta Torre – Web development for bookstores</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="site-header">
-    <nav class="main-nav">
-      <ul>
+    <nav class="nav-container">
+      <ul class="nav-left">
         <li><a href="#services">Services</a></li>
         <li><a href="#about">About</a></li>
       </ul>
-      <div class="logo">
+      <div class="logo-container">
         <img src="logo.svg" alt="Marta Torre logo" width="94" height="94" />
       </div>
-      <ul>
-        <li><a href="#work">Work</a></li>
+      <ul class="nav-right">
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="hero">
-    <div class="hero-content">
-      <h1>I build fast, functional websites for indie bookstores</h1>
-      <p>Custom WordPress development focused on performance and accessibility.</p>
-      <a class="cta-button" href="#contact">Get in touch</a>
-    </div>
-  </section>
+  <main>
+    <section class="hero">
+      <h1>Web development for bookstores</h1>
+      <p>Fast, functional, and optimized websites to connect independent bookstores with their readers.</p>
+      <a href="#contact" class="cta-button">Request a quote</a>
+    </section>
 
-  <section id="services" class="section">
-    <h2>What I do</h2>
-    <div class="services-grid">
-      <div class="service">
-        <h3>Fast, functional websites</h3>
-        <p>Custom WordPress development focused on performance, UX and accessibility.</p>
-      </div>
-      <div class="service">
-        <h3>Mobile optimization</h3>
-        <p>I make sure your site works perfectly on every screen.</p>
-      </div>
-      <div class="service">
-        <h3>Privacy-first mindset</h3>
-        <p>No cookie banners or shady scripts – just clean, ethical tech.</p>
-      </div>
-      <div class="service">
-        <h3>Training included</h3>
-        <p>You’ll learn to manage your site with confidence, no tech background needed.</p>
-      </div>
-    </div>
-  </section>
+    <section id="services" class="services">
+      <h2>Services</h2>
+      <ul class="service-list">
+        <li>
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+               stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M3 12h18M3 6h18M3 18h18" />
+          </svg>
+          <h3>Fast & functional websites</h3>
+          <p>Custom WordPress development focused on performance and user experience.</p>
+        </li>
+        <li>
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+               stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M4 4h16v16H4z" />
+            <path d="M4 10h16" />
+          </svg>
+          <h3>Mobile optimization</h3>
+          <p>Responsive design so your website works perfectly on any device.</p>
+        </li>
+        <li>
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+               stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 20l9-5-9-5-9 5 9 5z" />
+            <path d="M12 12V4" />
+          </svg>
+          <h3>Training included</h3>
+          <p>I’ll teach you how to manage your site easily and update your content.</p>
+        </li>
+      </ul>
+    </section>
 
-  <section id="work" class="section">
-    <h2>Latest project</h2>
-    <div class="project-card">
-      <h3>Librería Moderna</h3>
-      <p>A clean, mobile-friendly bookstore website built with WordPress and Gutenberg.</p>
-    </div>
-  </section>
+    <section id="testimonials" class="testimonials">
+      <h2>What clients say</h2>
+      <ul class="testimonial-list">
+        <li>
+          <blockquote>“Marta made the process easy and clear. The result is a fast and beautiful website that our readers love.”</blockquote>
+          <cite>— Librería Ejemplo</cite>
+        </li>
+        <li>
+          <blockquote>“Thanks to the training, I can now update my bookstore’s events and news by myself!”</blockquote>
+          <cite>— Ana, bookstore owner</cite>
+        </li>
+      </ul>
+    </section>
 
-  <section id="contact" class="section">
-    <h2>Let’s work together</h2>
-    <p>If you're running a bookstore and want a solid, accessible site, I'd love to help.</p>
-    <ul class="contact-links">
-      <li>
-        <a href="mailto:hey@martatorre.dev">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-mail" aria-hidden="true">
-            <path d="M4 4l8 6 8-6" />
-            <rect x="2" y="4" width="20" height="16" rx="2" ry="2" />
-          </svg>
-          hey [at] martatorre.dev
-        </a>
-      </li>
-      <li>
-        <a href="https://wptoots.social/@martatorredev@masto.es" target="_blank" rel="noopener">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 216 232" width="20" height="20" fill="currentColor" aria-hidden="true">
-            <path d="M..." /> <!-- Mastodon SVG path aquí -->
-          </svg>
-          Mastodon
-        </a>
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/in/martatorredev/" target="_blank" rel="noopener">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-            <path d="M..." /> <!-- LinkedIn SVG path aquí -->
-          </svg>
-          LinkedIn
-        </a>
-      </li>
-    </ul>
-  </section>
+    <section id="contact" class="contact">
+      <h2>Let's talk</h2>
+      <p>If you're looking to give your bookstore a solid online presence, I'm here to help.</p>
+      <ul class="contact-links">
+        <li>
+          <span class="icon-text">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
+                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-mail" aria-hidden="true">
+              <path d="M4 4l8 6 8-6" />
+              <rect x="2" y="4" width="20" height="16" rx="2" ry="2" />
+            </svg>
+            hey [at] martatorre.dev
+          </span>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/martatorredev/" target="_blank" rel="noopener">LinkedIn</a>
+        </li>
+        <li>
+          <a href="https://wptoots.social/@martatorredev@masto.es" target="_blank" rel="me noopener">Mastodon</a>
+        </li>
+      </ul>
+    </section>
+  </main>
 
   <footer class="site-footer">
-    <p>&copy; 2025 Marta Torre – Web development for bookstores</p>
+    <p>© 2025 Marta Torre – Web development for bookstores</p>
   </footer>
 </body>
+</html>
